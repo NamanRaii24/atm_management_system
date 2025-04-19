@@ -4,6 +4,7 @@ package atm_simulator_system;
 import javax.swing.*;                       //swing package comes from extended packages hence javax  .* imports all packages being used here
 import java.awt.*;
 import java.awt.event.*;
+import java.sql.*;
 public class Login extends JFrame implements ActionListener{         //JFrame is a class of swing,we are importing it from swing package
 
     JButton login, signup, clear;
@@ -86,6 +87,23 @@ public class Login extends JFrame implements ActionListener{         //JFrame is
              pinTextField.setText("");
         }
         else if (ae.getSource() == login){
+            Conn conn = new Conn();
+            String cardnumber = cardTextField.getText();
+            String pinnumber = pinTextField.getText();
+            String query = "select * from login where cardnumber = '"+cardnumber+"' and pin = '"+pinnumber+"'";
+            try{
+               ResultSet rs = conn.s.executeQuery(query);
+               if(rs.next()){
+                   setVisible(false);
+                   new Transactions(pinnumber).setVisible(true);
+               }
+               else{
+                   JOptionPane.showMessageDialog(null,"Incorrect Card NO. or PIN");
+               }
+            }
+            catch(Exception e){
+                System.out.println(e);
+            }
             
         }
         else if (ae.getSource() == signup){

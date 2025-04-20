@@ -18,7 +18,21 @@ A Java-based GUI application that simulates the core functionalities of an Autom
 
 ## 📸 Screenshots
 
-> _(Include screenshots of login, transaction screen, mini-statement, and any other main screen here. You can use image tags in markdown.)_
+Here are a few screenshots showcasing the project interface and functionalities.
+
+🖥️ Login Page
+![alt text](image.png)
+
+💳 Transactions Menu
+![alt text](image-1.png)
+
+📝 Deposit Page
+![alt text](image-2.png)
+
+📄 Mini Statement
+![alt text](image-3.png)
+
+
 
 ## 🔧 Technologies Used
 
@@ -67,7 +81,7 @@ atm_simulator_system/
 
 ### Prerequisites
 
-- Java 8 or higher
+- Java 17 or higher
 - MySQL Server
 - IDE like NetBeans, IntelliJ, or Eclipse
 
@@ -87,9 +101,8 @@ atm_simulator_system/
 
 ## 🙋‍♂️ Author
 
-- **[Your Name]**
-- Student at [Your College]
-- GitHub: [Your GitHub Handle]
-- Email: [Your Email]
+- **NAMAN RAI**
+- [GitHub](https://github.com/NamanRaii24)
+- Email: namanr073@gmail.com
 
 ---

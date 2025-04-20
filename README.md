@@ -19,18 +19,19 @@ A Java-based GUI application that simulates the core functionalities of an Autom
 ## 📸 Screenshots
 
 Here are a few screenshots showcasing the project interface and functionalities.
+> _Interface Preview_
 
-🖥️ Login Page
-![alt text](image.png)
+### 🖥️ Login Page
+![Login Page](screenshots/login.png)
 
-💳 Transactions Menu
-![alt text](image-1.png)
+### 💳 Menu
+![Menu](screenshots/menu.png)
 
-📝 Deposit Page
-![alt text](image-2.png)
+### 💰 Deposit Page
+![Deposit](screenshots/deposit.png)
 
-📄 Mini Statement
-![alt text](image-3.png)
+### 📄 Mini Statement
+![Mini Statement](screenshots/statement.png)
 
 
 

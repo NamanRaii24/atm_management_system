@@ -69,6 +69,10 @@ public class Login extends JFrame implements ActionListener{         //JFrame is
         signup = new JButton ("SIGNUP");
         signup.setBounds (300, 350 , 230 , 30);
         signup.setBackground(Color.BLACK);
+        
+        
+        
+        
         signup.setForeground (Color.white);
          signup.addActionListener(this);
         add(signup);
